@@ -1,9 +1,11 @@
-// import { getIconCollections, iconsPlugin } from '@egoist/tailwindcss-icons';
-const {iconsPlugin, getIconCollections} = require('@egoist/tailwindcss-icons');
+const {
+  iconsPlugin,
+  getIconCollections,
+} = require('@egoist/tailwindcss-icons');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/**/*.{html,js}"],
+  content: ['./dist/**/*.{html,js}'],
   theme: {
     container: {
       center: true,
@@ -55,7 +57,7 @@ module.exports = {
   },
   plugins: [
     iconsPlugin({
-      collections: getIconCollections(['material-symbols']),
+      collection: getIconCollections(['material-symbols']),
     }),
   ],
 };

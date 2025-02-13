@@ -882,6 +882,10 @@ video {
   margin-top: 92px;
 }
 
+.mt-\[88px\] {
+  margin-top: 88px;
+}
+
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;

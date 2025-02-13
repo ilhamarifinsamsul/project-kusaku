@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container max-w-[768px]">
-      <div class="flex min-h-dvh flex-col gap-4 bg-green-50 p-4">
+      <div class="flex min-h-dvh flex-col gap-4 bg-green-50 p-4 pb-[80px]">
         <div class="flex w-full flex-col">
           <!-- Avatar Name -->
           <div class="mb-4 flex">
@@ -239,14 +239,16 @@
             <div class="my-2.5 flex gap-4 whitespace-nowrap px-5 last:hidden">
               <div class="flex-grow-1 h-[1px] w-full bg-gray-400"></div>
             </div>
-
             <!-- ./Items -->
           </div>
           <!-- ./Card List -->
         </div>
       </div>
+
       <!-- Navbar -->
-      <div class="flex justify-evenly bg-white">
+      <div
+        class="fixed bottom-0 left-0 z-10 flex w-full justify-evenly bg-white"
+      >
         <a
           href="#"
           class="group flex w-full flex-col items-center p-3 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-400"
